@@ -8,6 +8,7 @@ Distribution scripts for installing Crimson with external package managers/tools
 ```
 choco install crimson
 ```
+-->
 
 ## Homebrew
 
@@ -15,7 +16,6 @@ choco install crimson
 brew tap crimson-crystal/distribution
 brew install crimson
 ```
--->
 
 ## Scoop
 
