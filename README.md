@@ -13,7 +13,7 @@ choco install crimson
 ## Homebrew
 
 ```
-brew tap crimson-crystal/crimson https://github.com/crimson-crystal/distribution
+brew tap crimson-crystal/distribution https://github.com/crimson-crystal/distribution
 brew install crimson
 ```
 
