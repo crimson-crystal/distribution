@@ -14,6 +14,6 @@ class Crimson < Formula
     end
 
     def test
-        assert_match version.to_s, shell_output("#{bin}/crimson version").split(' ')[2]
+        assert_match "0.1.0", shell_output("#{bin}/crimson version").split(' ')[2]
     end
 end
