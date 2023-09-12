@@ -10,6 +10,8 @@ class Crimson < Formula
     depends_on "git" => :build
 
     def install
+        hash = shell_output("git ls-remote https://github.com/crimson-crystal/crimson").lines[0][0...8]
+        ENV["CRIMSON_HASH"] = hash
         system "shards", "build", "--no-debug", "--production", "--release"
         bin.install "./bin/crimson"
     end
