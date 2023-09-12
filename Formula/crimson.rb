@@ -7,6 +7,7 @@ class Crimson < Formula
     version '0.1.0'
 
     depends_on "crystal" => :build
+    depends_on "git" => :build
     conflicts_with "crystal", because: "homebrew install overrides crimson installs"
 
     def install
