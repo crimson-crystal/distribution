@@ -4,7 +4,7 @@ class Crimson < Formula
     license "MPL-2.0"
     # url "https://github.com/crimson-crystal/crimson/archive/0.1.0.tar.gz"
     url "https://github.com/crimson-crystal/crimson/archive/refs/heads/main.zip"
-    sha256 "17ed776dc4109ec29353527fbb89d18b5b13e2ebf94ccdf8dd3ab295c2018fc1"
+    sha256 "4c2a17c2fe4962a850781eeb7fae3c82dd2d6cc8a6260f6973500e55f54527f8"
     version '0.1.0'
 
     depends_on "crystal" => :build
