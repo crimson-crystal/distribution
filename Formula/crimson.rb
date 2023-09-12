@@ -8,7 +8,6 @@ class Crimson < Formula
 
     depends_on "crystal" => :build
     depends_on "git" => :build
-    conflicts_with "crystal", because: "homebrew install overrides crimson installs"
 
     def install
         system "shards", "build", "--no-debug", "--production", "--release"
