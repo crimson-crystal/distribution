@@ -1,0 +1,15 @@
+{
+    "version": "0.1.0",
+    "description": "A Crystal Version Manager",
+    "homepage": "https://github.com/crimson-crystal/crimson#readme",
+    "license": {
+        "identifier": "MPL-2.0",
+        "url": "https://github.com/crimson-crystal/crimson/blob/main/LICENSE"
+    },
+    "url": [
+        "https://github.com/crimson-crystal/crimson/releases/download/nightly/crimson-nightly-windows-x86_64-msvc.zip"
+    ],
+    "bin": [
+        "crimson.exe"
+    ]
+}
