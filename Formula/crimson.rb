@@ -14,5 +14,7 @@ class Crimson < Formula
         ENV["CRIMSON_HASH"] = hash
         system "shards", "build", "--no-debug", "--production", "--release"
         bin.install "./bin/crimson"
+
+        opoo "Remember to run `brew uninstall crystal` before using Crimson!"
     end
 end
