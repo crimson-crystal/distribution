@@ -2,9 +2,9 @@ class Crimson < Formula
     desc "A Crystal Version Manager"
     homepage "https://github.com/crimson-crystal/crimson#readme"
     license "MPL-2.0"
-    url "https://github.com/crimson-crystal/crimson/archive/refs/tags/nightly.tar.gz"
-    sha256 "b0c6cd72e02100f5bc7f450e7a6876cb8b3e9a46b8a8cd1b1dd4ed90e0a23106"
-    version '0.1.0'
+    url "https://github.com/crimson-crystal/crimson/archive/refs/tags/1.0.0.tar.gz"
+    sha256 "170b05f7ff288cdbabeab9aa7d225fc0f0536cb76c1c890d4c380d91441478e8"
+    version '1.0.0'
 
     depends_on "crystal" => :build
     depends_on "git" => :build
