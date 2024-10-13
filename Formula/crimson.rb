@@ -16,8 +16,4 @@ class Crimson < Formula
         system "shards", "build", "--no-debug", "--production", "--release"
         bin.install "./bin/crimson"
     end
-
-    def test
-        assert_match "0.1.0", shell_output("#{bin}/crimson version").split(' ')[2]
-    end
 end

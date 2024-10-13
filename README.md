@@ -13,7 +13,7 @@ choco install crimson
 ## Homebrew
 
 ```
-brew tap crimson-crystal/distribution https://github.com/crimson-crystal/distribution
+brew tap crimson/distribution https://github.com/crimson-crystal/distribution
 brew install crimson
 ```
 
@@ -24,4 +24,4 @@ scoop bucket add crimson https://github.com/crimson-crystal/distribution
 scoop install crimson
 ```
 
-© 2023 devnote-dev
+© 2023-present devnote-dev
