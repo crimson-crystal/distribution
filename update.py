@@ -24,13 +24,17 @@ def update_bucket(version: str) -> None:
 def update_formula(version: str) -> None:
     '''essentially replaces the line rather than trying to do magic stuff'''
 
-    conn = HTTPSConnection('github.com')
+    conn = HTTPSConnection('codeload.github.com')
     conn.request('GET',
-                 'https://github.com/crimson-crystal/crimson/'
-                 f'archive/refs/tags/{version}.tar.gz')
+                 f'/crimson-crystal/crimson/tar.gz/refs/tags/{version}')
 
     sha256: str
     with conn.getresponse() as res:
+        if res.status != 200:
+            print(f'failed to get {version}.tar.gz source '
+                  f'(status: {res.status})')
+            return
+
         sha256 = hashlib.sha256(res.read()).hexdigest()
 
     lines: list
