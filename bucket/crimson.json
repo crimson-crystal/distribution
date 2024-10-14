@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Crystal Version Manager",
     "homepage": "https://github.com/crimson-crystal/crimson#readme",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://github.com/crimson-crystal/crimson/blob/main/LICENSE"
     },
     "url": [
-        "https://github.com/crimson-crystal/crimson/releases/download/1.0.0/crimson-1.0.0-windows-x86_64-msvc.zip"
+        "https://github.com/crimson-crystal/crimson/releases/download/1.0.1/crimson-1.0.1-windows-x86_64-msvc.zip"
     ],
     "bin": [
         "crimson.exe"
